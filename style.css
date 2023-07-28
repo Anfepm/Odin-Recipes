@@ -1,20 +1,20 @@
 html{
-    min-height: 100vh;
+    position: relative;
+    min-height: 105vh;
     background: aquamarine;
 }
 
 body    {
     display: grid;
     grid-template-columns: 30% 40% 30%;
-    position: relative;
-    margin: 5px;
-    height: 94vh;
+    position: absolute;
+    height: 105vh;
     box-sizing: border-box;
 }
 
 #title {
     font-family: 'Handjet', cursive;
-    font-size: 100px;
+    font-size: 90px;
     color: deeppink ;
 }
 
@@ -22,24 +22,39 @@ body    {
     display: inline-table;
     text-align: center;
     position: relative;
+    border: 12px;
+    padding: 40px;
     background-color: beige;
-    margin: 1px;
+    margin: 90px;
     border-radius: 2px;
     
+}
+
+#midc{
+    text-align: center;
+    position: relative;
+    transform: translateY(-1.7vw);
 }
 
 #mid{
     display: inline-table;
     text-align: center;
     position: relative;
-    bottom: 10;
-    transform: translateY(-1.7vw);
+    padding: 40px;
+    background-color: beige;
+    margin: 18px;
+    border-radius: 2px;
+    
 }
 
 #right{
     display: inline-table;
     text-align: center;
     position: relative;
+    padding: 40px;
+    background-color: beige;
+    margin: 90px;
+    border-radius: 2px;
     
 }
 #subrayado{
@@ -48,7 +63,7 @@ body    {
     display: grid;
     height: 500px;
     width: 700px;
-    top: 50px;  
+    top: 20px;  
 }
 
 #leftimg {
@@ -64,7 +79,7 @@ body    {
     height: 200px;
     width: 300px;
     top: 21px;
-    z-index: -1;
+    z-index: 1;
 }
 
 #rightimg{
@@ -72,15 +87,15 @@ body    {
     height: 200px;
     width: 300px;
     top: 21px;
-    z-index: -1;
+    z-index: 1;
 }
 
 #leftmarco{
     position: absolute;
     height: 252px;
     width: 340px;
-    top: -10px;
-    left: 105px;
+    top: 30px;
+    left: 20px;
     z-index: 2;
 }
 
@@ -88,18 +103,18 @@ body    {
     position: absolute;
     height: 252px;
     width: 340px;
-    top: 350px;
-    left: 195px;
-    z-index: 1;
+    top: 30px;
+    left: 175px;
+    z-index: 2;
 }
 
 #rightmarco{
     position: absolute;
     height: 252px;
     width: 340px;
-    top: -10px;
-    left: 105px;
-    z-index: 1;
+    top: 30px;
+    left: 20px;
+    z-index: 2;
 }
 
 #leftdescription{
@@ -118,24 +133,14 @@ body    {
     position: relative;
 }
 
-.container{
-    margin: 0;
-}
-
-section article{
-    background-color: beige;
-    margin: 15px;
-    border-radius: 10px;
-}
-
-footer{
+footer {
     padding: 1rem 2rem;
-    background-color: deeppink;
+    background-color: hotpink;
     position: absolute;
-    bottom: -75px;
+    bottom: 0%;
     width: 100%;
-    height: 100px;
-        font-family: 'Handjet';
+    height: 50px;
+    font-family: 'Handjet';
 }
  
 #pepito{
