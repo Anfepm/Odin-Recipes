@@ -5,11 +5,13 @@ html{
 }
 
 body    {
-    display: grid;
+    display: flex;
     grid-template-columns: 30% 40% 30%;
-    position: absolute;
+    position: relative;
     height: 105vh;
     box-sizing: border-box;
+    min-height: 100vh;
+    flex-direction: row;
 }
 
 #title {
@@ -37,14 +39,11 @@ body    {
 }
 
 #mid{
-    display: inline-table;
+
     text-align: center;
-    position: relative;
-    padding: 40px;
+    position: absolute;
     background-color: beige;
-    margin: 18px;
-    border-radius: 2px;
-    
+    top: 400px;
 }
 
 #right{
@@ -58,15 +57,15 @@ body    {
     
 }
 #subrayado{
-    position: absolute;
-    align-items: center;
-    display: grid;
+    position: relative;
+    justify-content: center;
     height: 500px;
     width: 700px;
-    top: 20px;  
+    top: -300px;  
 }
 
 #leftimg {
+    justify-content: center;
     position: relative;
     height: 200px;
     width: 300px;
@@ -91,11 +90,11 @@ body    {
 }
 
 #leftmarco{
+    justify-content: center;
     position: absolute;
     height: 252px;
     width: 340px;
     top: 30px;
-    left: 20px;
     z-index: 2;
 }
 
@@ -133,16 +132,26 @@ body    {
     position: relative;
 }
 
-footer {
-    padding: 1rem 2rem;
-    background-color: hotpink;
-    position: absolute;
-    bottom: 0%;
+footer{
+    color: darkorchid;
+    background-color: darkseagreen;
+    font-family: 'Handjet' , cursive;
+    padding: 1em 0;
+    height: 5%;
     width: 100%;
-    height: 50px;
-    font-family: 'Handjet';
+    position: absolute;
+    bottom: 0;
+    margin-top: auto;
 }
- 
-#pepito{
-    color: beige;
+
+#Arriba{
+    position: absolute;
+    text-align: right;
+    left: 94%;
+}
+
+#Contacto{
+    position: absolute;
+    left: 85.5%;
+    text-align: right;
 }
