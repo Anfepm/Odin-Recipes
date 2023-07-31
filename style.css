@@ -1,6 +1,5 @@
 html{
-    position: relative;
-    min-height: 105vh;
+    min-height: 10vh;
     background: aquamarine;
 }
 
@@ -8,7 +7,7 @@ body    {
     display: flex;
     grid-template-columns: 30% 40% 30%;
     position: relative;
-    height: 105vh;
+    height: 110vh;
     box-sizing: border-box;
     min-height: 100vh;
     flex-direction: row;
@@ -23,19 +22,18 @@ body    {
 #left{
     display: inline-table;
     text-align: center;
-    position: relative;
     border: 12px;
     padding: 40px;
     background-color: beige;
     margin: 90px;
     border-radius: 2px;
+    max-height: 90vh;
     
 }
 
 #midc{
     text-align: center;
-    position: relative;
-    transform: translateY(-1.7vw);
+    transform: translateY(1.9vw);
 }
 
 #mid{
@@ -49,15 +47,15 @@ body    {
 #right{
     display: inline-table;
     text-align: center;
-    position: relative;
     padding: 40px;
     background-color: beige;
     margin: 90px;
     border-radius: 2px;
+    max-height: 90vh;
     
 }
 #subrayado{
-    position: relative;
+position: relative;
     justify-content: center;
     height: 500px;
     width: 700px;
@@ -66,7 +64,6 @@ body    {
 
 #leftimg {
     justify-content: center;
-    position: relative;
     height: 200px;
     width: 300px;
     top: 21px;
@@ -74,7 +71,6 @@ body    {
 }
 
 #midimg{
-    position: relative;
     height: 200px;
     width: 300px;
     top: 21px;
@@ -82,7 +78,6 @@ body    {
 }
 
 #rightimg{
-    position: relative;
     height: 200px;
     width: 300px;
     top: 21px;
@@ -91,7 +86,6 @@ body    {
 
 #leftmarco{
     justify-content: center;
-    position: absolute;
     height: 252px;
     width: 340px;
     top: 30px;
@@ -99,7 +93,6 @@ body    {
 }
 
 #midmarco {
-    position: absolute;
     height: 252px;
     width: 340px;
     top: 30px;
@@ -108,7 +101,6 @@ body    {
 }
 
 #rightmarco{
-    position: absolute;
     height: 252px;
     width: 340px;
     top: 30px;
@@ -118,18 +110,17 @@ body    {
 
 #leftdescription{
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
-    position: relative;
+
 
 }
 
 #middescription{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    position: relative;
 }
 
 #rightdescription{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    position: relative;
+
 }
 
 footer{
@@ -139,19 +130,7 @@ footer{
     padding: 1em 0;
     height: 5%;
     width: 100%;
-    position: absolute;
     bottom: 0;
-    margin-top: auto;
+    margin-top:auto;
 }
 
-#Arriba{
-    position: absolute;
-    text-align: right;
-    left: 94%;
-}
-
-#Contacto{
-    position: absolute;
-    left: 85.5%;
-    text-align: right;
-}
