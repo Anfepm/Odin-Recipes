@@ -1,0 +1,39 @@
+body{
+    align-items: center;
+    text-align: center;
+    background-color: burlywood;
+}
+
+.container img{
+    padding:8px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #999999;
+    border-right: 1px solid #999999;
+}
+
+.container ul{
+    border-radius: 15px;
+    margin: 30px;
+    border: solid antiquewhite;
+   
+
+}
+
+.container a,ul{
+    letter-spacing: 1pt;
+    padding: 1rem;
+    font-size: 20px;
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
+
+#title{
+    background-color: antiquewhite;
+    color: brown;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#chef{
+    height: 350px;
+}
